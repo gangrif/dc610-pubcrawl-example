@@ -1,0 +1,12 @@
+docker run \
+  -d \
+  --restart=always \
+  --name=dc610-apache-test \
+  -p 80:80 \
+  -p 443:443 \
+  -v /<path to your>/dc610-pubcrawl-example/volumes/apache/flag/:/tmp/f \
+  -v /<path to your>/dc610-pubcrawl-example/volumes/apache/var-www/:/var/www \
+  -v /<path to your>/dc610-pubcrawl-example/volumes/apache/etc-apache2/:/etc/apache2 \
+  -v /<path to your>/dc610-pubcrawl-example/volumes/apache/cgi-bin:/usr/lib/cgi-bin \
+  -v /<path to your>/dc610-pubcrawl-example/volumes/apache/log:/var/log \
+  dc610-pubcrawl-example

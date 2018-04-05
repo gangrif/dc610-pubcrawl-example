@@ -1,0 +1,24 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Apr 04 01:56:37.187048 2018] [mpm_event:notice] [pid 8:tid 140350700238016] AH00489: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 04 01:56:37.204454 2018] [core:notice] [pid 8:tid 140350700238016] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Apr 04 01:57:02.613636 2018] [core:error] [pid 11:tid 140350538643200] [client 172.17.0.1:49590] AH00082: an unknown filter was not added: includes
+[Wed Apr 04 01:57:31.462745 2018] [core:error] [pid 10:tid 140350513465088] [client 172.17.0.1:49624] AH00082: an unknown filter was not added: includes
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Apr 04 01:59:29.711548 2018] [core:warn] [pid 9:tid 140368175371456] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 04 01:59:29.712705 2018] [mpm_event:notice] [pid 9:tid 140368175371456] AH00489: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 04 01:59:29.712734 2018] [core:notice] [pid 9:tid 140368175371456] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Apr 04 01:59:47.882736 2018] [include:warn] [pid 12:tid 140368085247744] [client 172.17.0.1:49714] AH01374: mod_include: Options +Includes (or IncludesNoExec) wasn't set, INCLUDES filter removed: /main.shtml, referer: http://127.0.0.1/locations.html
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Apr 04 02:01:58.904045 2018] [cgid:error] [pid 9:tid 140318799865024] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.8
+[Wed Apr 04 02:01:58.904152 2018] [core:warn] [pid 8:tid 140318799865024] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 04 02:01:58.904713 2018] [mpm_event:notice] [pid 8:tid 140318799865024] AH00489: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 04 02:01:58.904729 2018] [core:notice] [pid 8:tid 140318799865024] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Apr 04 02:01:58.904940 2018] [cgid:crit] [pid 8:tid 140318799865024] AH01238: cgid daemon failed to initialize
+[Wed Apr 04 02:02:06.859460 2018] [include:warn] [pid 11:tid 140318709741312] [client 172.17.0.1:49768] AH01374: mod_include: Options +Includes (or IncludesNoExec) wasn't set, INCLUDES filter removed: /main.shtml, referer: http://127.0.0.1/locations.html
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Apr 04 02:03:18.767554 2018] [core:warn] [pid 8:tid 139677754684608] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 04 02:03:18.769400 2018] [mpm_event:notice] [pid 8:tid 139677754684608] AH00489: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 04 02:03:18.769435 2018] [core:notice] [pid 8:tid 139677754684608] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Apr 04 23:56:11.137539 2018] [mpm_event:notice] [pid 8:tid 140455009850560] AH00489: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 04 23:56:11.169235 2018] [core:notice] [pid 8:tid 140455009850560] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
