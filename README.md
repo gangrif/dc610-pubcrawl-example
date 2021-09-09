@@ -39,6 +39,9 @@ This repo includes some example code, presented by @gangrif at the DC610 April
 on an example container, and build their own Flags for the Upcoming DC610 Hacker
 Pub Crawl!  
 
+# Platform
+I realize this document doesn't go into what platform to run things on.  You basically need an RPI with wireless.  Any Pi will do, I use Pi zero w's, but a Pi 2, 3, or 4 are all great too.  The first iteration of Hack My Derby ran on a Pi A, and you can find the how-to I wrote up on it here: https://www.undrground.org/hmd2015 
+
 # Getting Started
 Included in this repo you'll find the following directories:
 ~~~
